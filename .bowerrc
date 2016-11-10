@@ -1,0 +1,12 @@
+{
+  "directory": "_assets/bower",
+  "prefix": "/Users/exit0",
+  "HOME": "/Users/exit0",
+  "storage": {
+    "packages" : "_assets/bower/packages",
+    "registry" : "_assets/bower/registry",
+    "links" : "_assets/bower/links",
+    "completion": "_assets/bower/completion",
+    "empty": "_assets/bower/empty"
+  }
+}
