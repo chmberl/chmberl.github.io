@@ -22,7 +22,7 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
-    autoprefixer-rails (6.5.2)
+    autoprefixer-rails (6.5.3)
       execjs
     builder (3.2.2)
     colorator (1.1.0)
@@ -95,7 +95,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.4)
-    rack (1.6.4)
+    rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-deprecated_sanitizer (1.0.3)
