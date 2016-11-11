@@ -1,20 +1,18 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/{{ page.path }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>exit0's blog</title>
+    <description></description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ site.url }}{{ post.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+        <title>Tell Me Why</title>
+        <description></description>
+        <pubDate>Fri, 11 Nov 2016 00:00:00 +0800</pubDate>
+        <link>/posts/tell-me-why</link>
+        <guid isPermaLink="true">/posts/tell-me-why</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
